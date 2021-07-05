@@ -6,12 +6,12 @@ from dash.dependencies import Input, Output, State
 
 ########### Define your variables ######
 
-myheading1='How to use callbacks with multiple inputs'
-tabtitle = 'lightsabers!'
-list_of_colors=['red', 'green', 'blue']
-list_of_numbers=['one', 'two', 'three']
+myheading1='Various Things of Various Sizes'
+tabtitle = 'SML'
+list_of_colors=['felines', 'humans', 'pizza']
+list_of_numbers=['small', 'medium', 'large']
 sourceurl = 'https://dash.plot.ly/getting-started-part-2'
-githublink = 'https://github.com/austinlasseter/dash-callbacks-multi-input'
+githublink = 'https://github.com/calijason76/dash-callbacks-multi-input'
 
 
 ########## Set up the chart
@@ -54,9 +54,9 @@ app.layout = html.Div(children=[
         ],className='eight columns'),
     ],className='twelve columns'),
     html.Br(),
-    html.A('Code on Github', href=githublink),
+    html.A("There's No Place Like GitHub", href=githublink),
     html.Br(),
-    html.A("Data Source", href=sourceurl),
+    html.A("Data Source - Thanks Google Image Search", href=sourceurl),
     ]
 )
 
